@@ -15,7 +15,8 @@
 }
 .home-container,
 .about-container,
-.experience-container {
+.experience-container,
+.skills-container {
   height: 100vh;
   width: calc(100% - 74.39px);
   display: flex;
@@ -37,4 +38,10 @@
 .coursive-text {
   font-family: $second-font;
   font-size: 1.5rem;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }

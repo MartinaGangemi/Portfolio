@@ -1,0 +1,35 @@
+@import "./../../css/variables.scss";
+.works-container {
+  width: calc(100% - 74.39px);
+
+  position: relative;
+  z-index: 0;
+  left: 74.39px;
+}
+
+.pagination-btn {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    border: solid 1px $primary-color;
+    cursor: poiner;
+    color: $primary-color;
+    text-decoration: none;
+    &:hover {
+      color: $light-color;
+      background-color: $primary-color;
+    }
+  }
+}
+
+.pagination-active a {
+  background-color: $primary-color;
+}

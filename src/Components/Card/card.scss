@@ -1,0 +1,23 @@
+@import "./../../css/variables.scss";
+
+.img-card-container {
+  height: 180px;
+}
+
+.card {
+  background-color: $dark-color !important;
+
+  card-title {
+    color: $primary-color;
+  }
+
+  .link-demo {
+    color: $primary-color;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .card-body {
+    height: 160px;
+  }
+}

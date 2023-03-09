@@ -1,0 +1,14 @@
+@import "./../../css/variables.scss";
+.categories-btn {
+  color: $light-color !important;
+  text-decoration: none !important;
+  position: relative;
+}
+
+.active::before {
+  content: " ";
+  position: absolute;
+  border-bottom: 4px solid $primary-color;
+  width: 40%;
+  bottom: -5px;
+}

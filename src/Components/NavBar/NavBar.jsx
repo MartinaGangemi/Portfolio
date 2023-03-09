@@ -9,9 +9,9 @@ const NavBar = () => {
   return (
     <nav className="aside-nav">
       <ul className="d-flex justify-content-around flex-row-reverse m-0">
-        {navLinks.map((link) => {
+        {navLinks.map((link, i) => {
           return (
-            <li className="py-4">
+            <li key={i} className="py-4">
               <Link
                 activeClass="active"
                 to={link.id}
