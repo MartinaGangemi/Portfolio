@@ -21,11 +21,7 @@ const HomeScreen = () => {
         </h6>
       </div>
       <div className="profile-img col-sm-12 col-lg-4">
-        <img
-          className="img-fluid rounded-circle"
-          src="../../../public/img/home.png"
-          alt=""
-        />
+        <img className="img-fluid rounded-circle" src="img/home.png" alt="" />
       </div>
     </div>
   );

@@ -6,11 +6,7 @@ const Card = ({ work }) => {
     <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2 ">
       <div className="card">
         <div className="img-card-container p-3">
-          <img
-            className="rounded"
-            src={"./../../../public/img/" + work.img}
-            alt="..."
-          ></img>
+          <img className="rounded" src={"img/" + work.img} alt="..."></img>
         </div>
 
         <div className="card-body p-3 d-flex justify-content-between flex-column">

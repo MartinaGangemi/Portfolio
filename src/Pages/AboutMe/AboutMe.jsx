@@ -25,7 +25,7 @@ const AboutMe = () => {
         <div className="profile-img col-sm-12 col-lg-6">
           <img
             className="img-fluid rounded-circle"
-            src="../../../public/img/about.png"
+            src="img/about.png"
             alt=""
           />
         </div>
