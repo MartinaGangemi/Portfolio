@@ -1,75 +1,66 @@
 export const works = [
   {
-    name: "Discord clone",
-    link: "https://discord-d838e5.netlify.app/",
-    description: "Clone del sito di discord",
-    tecnologies: ["HTML", "CSS"],
-    img: "discord.png",
-  },
-  {
-    name: "Dropbox clone",
-    link: "https://dropbox-b26f7a.netlify.app/",
-    description: "Clone del sito di Dropbox",
-    tecnologies: ["HTML", "CSS"],
-    img: "dropbox.png",
-  },
-
-  {
     name: "Spotify Web clone",
     link: "https://spotify-web-8344b0.netlify.app/",
-    description: "Clone del sito di Spotify",
+
     tecnologies: ["HTML", "CSS"],
     img: "spotify.png",
   },
   {
     name: "Playstation clone",
     link: "https://playstation-53b46f.netlify.app/",
-    description: "Clone del sito di playstation",
+
     tecnologies: ["HTML", "CSS", "Bootstrap"],
     img: "playstation.png",
   },
   {
     name: "Guess My Number",
     link: "https://guess-my-number-489a42.netlify.app/",
-    description: "gioco",
+
     tecnologies: ["HTML", "CSS", "Javascript"],
     img: "number.png",
   },
   {
     name: "Pig Game",
     link: "https://pig-game-12a8ad.netlify.app/",
-    description: "gioco",
+
     tecnologies: ["HTML", "CSS", "Javascript"],
     img: "pig-game.png",
   },
-  {
-    name: "WhatsApp",
-    link: "https://whatsapp-8fcd91.netlify.app/",
-    description: "gioco",
-    tecnologies: ["HTML", "CSS", "Javascript"],
-  },
+
   {
     name: "Bankist App",
     link: "https://bankist-app-e95ce2.netlify.app",
-    description: "gioco",
+
     tecnologies: ["HTML", "CSS", "Javascript"],
+    img: "bankist.png",
   },
   {
     name: "Netflix",
     link: "https://netflix-clone-0c5ec0.netlify.app/",
-    description: "gioco",
+
     tecnologies: ["HTML", "CSS", "Javascript", "Vue", "Axios", "Bootstrap"],
+    img: "netflix.png",
   },
   {
     name: "WP Template",
-    link: "https://vue-comics.netlify.app/",
-    description: "gioco",
+    link: "https://wp-template-f8296c.netlify.app/",
+
     tecnologies: ["HTML", "CSS", "Javascript", "Vue", "Bootstrap"],
+    img: "wp.png",
   },
   {
     name: "App Meteo",
-    link: "https://meteo-02fa0e.netlify.app/",
-    description: "app meteo",
+    link: "https://meteo-b26535.netlify.app/",
+
     tecnologies: ["HTML", "CSS", "Javascript", "React"],
+    img: "meteo.png",
+  },
+  {
+    name: "Bakist Site",
+    link: "https://bakinst-app.netlify.app/",
+
+    tecnologies: ["HTML", "CSS", "Javascript"],
+    img: "bs.png",
   },
 ];

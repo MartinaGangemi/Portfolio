@@ -10,10 +10,10 @@ import { works } from "../../data/works";
 
 import "./works.scss";
 const Works = () => {
-  const [pageNumber, setPageNUmber] = useState(0);
+  const [pageNumber, setPageNumber] = useState(0);
   const [workItems, setWorkItems] = useState(works);
 
-  const cardsPerPage = 4;
+  const cardsPerPage = 8;
   const pagesVisited = pageNumber * cardsPerPage;
 
   const displayCards = workItems
@@ -23,10 +23,11 @@ const Works = () => {
   const pageCount = Math.ceil(workItems.length / cardsPerPage);
 
   const handlePageClick = ({ selected }) => {
-    setPageNUmber(selected);
+    setPageNumber(selected);
   };
 
   const filterItems = (category) => {
+    setPageNumber(0);
     if (category !== "All") {
       const filteredWork = works.filter((work, i) =>
         work.tecnologies.includes(category)
@@ -36,7 +37,7 @@ const Works = () => {
   };
 
   return (
-    <div id="works" className="works-container py-4">
+    <div id="works" className="works-container">
       <h1 className="text-center text-uppercase">Recent Works</h1>
       <h6 className="text-center">
         <span className="color-text text-uppercase">My </span>{" "}
@@ -60,6 +61,7 @@ const Works = () => {
         containerClassName="pagination-btn"
         nextLinkClassName="next-btn"
         previousLinkClassName="prev-btn"
+        forcePage={pageCount}
         activeClassName="pagination-active"
       />
     </div>

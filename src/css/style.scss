@@ -10,14 +10,11 @@
   color: $light-color;
   font-family: $body-font;
 }
-.pippo {
-  width: 100%;
-}
+
 .home-container,
-.about-container,
-.experience-container,
-.skills-container {
+.about-container {
   height: 100vh;
+
   width: calc(100% - 74.39px);
   display: flex;
   align-items: center;
@@ -27,6 +24,23 @@
   left: 74.39px;
 }
 
+.skills-container,
+.experience-container,
+.works-container,
+.footer {
+  // height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  width: calc(100% - 74.39px);
+  position: relative;
+  left: 74.39px;
+}
+
+// .footer {
+//   width: calc(100% - 74.39px);
+//   position: relative;
+//   left: 74.39px;
+// }
 .color-text {
   color: $primary-color;
 }
@@ -44,4 +58,9 @@ img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.skill-icon {
+  font-size: 4rem;
+  color: $primary-color;
 }

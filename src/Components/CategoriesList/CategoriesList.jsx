@@ -11,7 +11,7 @@ const CategoriesList = ({ categoriesList, filterItems }) => {
         <button
           key={i}
           className={`categories-btn btn btn-link text-uppercase ${
-            active === i ? "active" : ""
+            active === i ? "active-list" : ""
           }`}
           onClick={() => {
             setActive(i);

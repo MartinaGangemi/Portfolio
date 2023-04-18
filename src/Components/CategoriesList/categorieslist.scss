@@ -3,9 +3,13 @@
   color: $light-color !important;
   text-decoration: none !important;
   position: relative;
+  transition: 0.5s !important;
+  &:hover {
+    color: $primary-color !important;
+  }
 }
 
-.active::before {
+.active-list::before {
   content: " ";
   position: absolute;
   border-bottom: 4px solid $primary-color;

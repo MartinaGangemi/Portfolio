@@ -3,8 +3,8 @@ import React from "react";
 import "./card.scss";
 const Card = ({ work }) => {
   return (
-    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 p-2 ">
-      <div className="card ">
+    <div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3 p-2 ">
+      <div className="card">
         <div className="img-card-container p-3">
           <img
             className="rounded"

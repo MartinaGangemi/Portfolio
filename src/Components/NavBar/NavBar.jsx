@@ -18,7 +18,7 @@ const NavBar = () => {
                 spy={true}
                 hashSpy={true}
                 smooth={true}
-                duration={500}
+                duration={1000}
               >
                 {link.title}
               </Link>

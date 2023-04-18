@@ -1,0 +1,26 @@
+@import "./../../css/variables.scss";
+
+.experience {
+  position: relative;
+  height: 100px;
+  padding-left: 20px;
+  h5::before {
+    content: "";
+    border-left: solid 2px $primary-color;
+    position: absolute;
+    height: 100%;
+    left: 0px;
+  }
+}
+
+// .experience-container {
+//   // height: 100vh;
+//   padding-top: 8rem;
+//   padding-bottom: 8rem;
+//   width: calc(100% - 74.39px);
+//   display: flex;
+//   justify-content: center;
+//   position: relative;
+//   z-index: 0;
+//   left: 74.39px;
+// }
